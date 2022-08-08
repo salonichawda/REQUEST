@@ -1,0 +1,597 @@
+{
+      "course": {
+            "id": "204",
+            "name": "Variables",
+            "logo": "https://merakilearn.s3.ap-south-1.amazonaws.com/lowSizeCourseImages/python/variables.jpg",
+            "notes": null,
+            "days_to_complete": null,
+            "short_description": "Iss topic mai hum Variables ke bare mai janege",
+            "type": "html",
+            "course_type": "json",
+            "lang_available": [
+                  "en",
+                  "hi",
+                  "mr"
+            ],
+            "exercises": [
+                  {
+                        "id": "5974",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-intro",
+                        "slug": "variables_json__variables/variables-intro_json",
+                        "sequence_num": 0,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-intro.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "What are <span style=\"\">Variables</span> ?"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "<b><span style=\"\">VARIABLE</span></b> is a memory/location in which the data is stored. Whose value we can change that is called a <span style=\"\">VARIABLE</span>. You can give any name to the <b><span style=\"\">VARIABLE</span></b> and you can store anything in the <span style=\"\">variable</span>."
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Just as we can store <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">123</span> in a VARIABLE named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_x</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Similarly we can put <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">9999</span> in a VARIABLE named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "As you remember that 123 and 9999 are <span style=\"\">INTEGERS</span>."
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "variable_x=123<br>a=9999<br># Let's see what happens when we print variable_x and a.<br>print (variable_x, a)"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "We can give another value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_x</span>, by this <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_x</span> will be updated. As you can see below that we have given a value 9.9 to the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_x</span> now."
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "variable_x=9.9<br># Now print variable_x to see its value.<br>print (variable_x)"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "As you remember that <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">9.9</span> is <span style=\"\">float</span>. That means we can give different values to a <span style=\"\">variable</span>. Value of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a</span> is not changed because we have not updated it. Now we can update <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a</span> and make a new <span style=\"\">variable</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">b</span>."
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 4,
+                                    "value": "Now you know in a <span style=\"\">variable</span> we can store some data but how computer store data do you know"
+                              },
+                              {
+                                    "component": "youtube",
+                                    "value": "15aqFQQVBWU"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a='hello world'<br>b='navgurukul'<br># Now print them to see the output.<br>print (variable_x, a, b)"
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 3,
+                                    "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Dry Run</span>"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "You all have to do these questions using pen and paper. Solve all the exercises in your notebooks and ask other people around you to check the solution."
+                              },
+                              {
+                                    "component": "youtube",
+                                    "value": "https://www.youtube.com/watch?v=9PnmC9NAvzU"
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 4,
+                                    "value": "Examples :-"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 3<br>b = 4<br>c = a * b<br>a = b * c<br>b = a + c<br>c = a + b + c"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 1<br>b = 2<br>b = a"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 7<br>b = 8 * 4<br>b = a"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 1<br>b = 2<br>c = b<br>b = a <br>a = c"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 1<br>b = a*2<br>c = b*2<br>a = c*2"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 100<br> a = a + 50<br> a = a / 3<br> a = a * 2"
+                              },
+                              {
+                                    "component": "code",
+                                    "type": "python",
+                                    "title": "",
+                                    "value": "a = 10<br> b = 10<br> c = a * b<br> a = c - b<br> b = c + a<br> c = a * c"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "To understand and verify this solution you can watch these videos."
+                              },
+                              {
+                                    "component": "youtube",
+                                    "value": "https://www.youtube.com/watch?v=fny5w_YKSc8"
+                              },
+                              {
+                                    "component": "youtube",
+                                    "value": "https://www.youtube.com/watch?v=RsmMloOHrRQ"
+                              },
+                              {
+                                    "component": "youtube",
+                                    "value": "https://www.youtube.com/watch?v=pyFetzD0b38"
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5976",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-question",
+                        "slug": "variables_json__variables/variables-question_json",
+                        "sequence_num": 1,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-question.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "text",
+                                    "value": "<i>To answer any question you can <span style=\"\">upload</span> the <span style=\"\">file</span>.</i>"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "<i>Remember <span style=\"\">python</span> <span style=\"\">file</span> extension is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.py</span>.</i>"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "<b>Just for your ease we have broken up this question into multiple parts. But you have to do the submission in single <span style=\"\">file</span> only.</b>"
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Question Part 1"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign an INTEGER value to a variable named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_nav</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Then print the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_nav</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Question Part 2"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Take a new variable named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">gurukul</span> and assign any STRING value to it.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign a FLOAT value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_nav</span> and set it.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Now print the value of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable_nav</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">gurukul</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 3
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5975",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-naming-rules",
+                        "slug": "variables_json__variables/variables-naming-rules_json",
+                        "sequence_num": 2,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-naming-rules.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Rules for naming a <span style=\"\">VARIABLE</span>"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "In <span style=\"\">Python</span> for naming <span style=\"\">variables</span>, some rules are followed. If we do not follow these rules, then the <i>program</i> is not going to be correct.  "
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Keep these 3 rules always in your mind :  "
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "The name starts with either some - Letter or an _ (underscore).  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Only letters, underscore or numbers can be present in the Name (no special characters).  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "It is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Case Sensitive</span> (means var, VAR, Var are different variables).",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 3
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "<b>Correct Names</b> - <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variable</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var123</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_12</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">_var</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">_12</span>  <br><b>Incorrect Names</b> - <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var@iable</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">123var</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var.123</span>  <br><b>Different Names</b> - <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varX</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Varx</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">VarX</span>"
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 3,
+                                    "value": "Activity :"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "In <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Python shell</span>, try to put values in the Incorrect <span style=\"\">variable</span> names. See how <span style=\"\">python</span> gives <span style=\"\">errors</span>."
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5977",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-naming-conventions",
+                        "slug": "variables_json__variables/variables-naming-conventions_json",
+                        "sequence_num": 3,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-naming-conventions.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "text",
+                                    "value": "It is very important to give correct <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">name</span> to a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Variable</span>.  "
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "If you don't give names properly, then nobody will be able to read your <span style=\"\">Code</span>, as they won't be able to understand that for what purpose the <span style=\"\">variable</span> is used?"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">camelCase</span>, <br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">PascalCase</span>,<br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">snake_case</span>,<br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">UPPER_CASE</span>,<br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">kebab-case</span><br>are five most popular <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">cases</span> for naming."
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "You can read in detail about the <a href=\"https://www.chaseadams.io/most-common-programming-case-types/\"><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">cases</span></a> here."
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "In <span style=\"\">Python</span>, we usually use :"
+                              },
+                              {
+                                    "component": "table",
+                                    "value": [
+                                          {
+                                                "header": "What Name?",
+                                                "items": [
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">variableNames</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">CONSTANT_NAMES</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">function_names</span>"
+                                                ]
+                                          },
+                                          {
+                                                "header": "Which Case?",
+                                                "items": [
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">camelCase</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">UPPER_CASE</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">snake_case</span>"
+                                                ]
+                                          }
+                                    ]
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Also, to give names to a variable is a skill in itself. Read this <a href=\"https://hackernoon.com/the-art-of-naming-variables-52f44de00aad\">article</a> to understand about naming conventions."
+                              },
+                              {
+                                    "component": "table",
+                                    "value": [
+                                          {
+                                                "header": "Category",
+                                                "items": [
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">arrayVariables</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">booleanVariables</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">function_names</span>"
+                                                ]
+                                          },
+                                          {
+                                                "header": "Suggested_Rule",
+                                                "items": [
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">usePlurals</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">start with is, can or has</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">use a verb or noun</span>"
+                                                ]
+                                          },
+                                          {
+                                                "header": "Examples",
+                                                "items": [
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">fruits, vegetables, etc.</span><br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">fruits = [\"apple\", \"banana\", \"guavas\"]</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">isOpen = True</span><br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">canWrite = False</span><br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">hasFruit = True</span>",
+                                                      "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">get_user(userId)</span><br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">calculate_total(items)</span><br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">to_Dollars('euros', 20)</span>"
+                                                ]
+                                          }
+                                    ]
+                              },
+                              {
+                                    "component": "header",
+                                    "variant": 3,
+                                    "value": "Note : Many candidates get rejected in their interviews, because they don't name the <span style=\"\">variables</span> properly, and the company does not like this."
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5978",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-naming-question1",
+                        "slug": "variables_json__variables/variables-naming-question1_json",
+                        "sequence_num": 4,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-naming-question1.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Question"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign FLOAT value to a VARIABLE named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_12</span>.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign STRING value to a VARIABLE named as<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">_var</span>.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign INTEGER value to a VARIABLE named as<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">_12</span>.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 3
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "After doing the above 3 steps, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">print</span> those three variables.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 4
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5979",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-naming-question2",
+                        "slug": "variables_json__variables/variables-naming-question2_json",
+                        "sequence_num": 5,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-naming-question2.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Question"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign INTEGER value to a VARIABLE named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">123var</span>.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "If your code runs easily, then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">upload</span> it. If it does not run then put the reason in the comment and upload the code.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5980",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-naming-question3",
+                        "slug": "variables_json__variables/variables-naming-question3_json",
+                        "sequence_num": 6,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-naming-question3.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Question"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign an INTEGER value to a VARIABLE named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var.123</span>.  ",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "If your code runs easily, then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">upload</span> it. If it does not run then put the reason in the comment and then upload the code.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "id": "5981",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "variables-naming-question4",
+                        "slug": "variables_json__variables/variables-naming-question4_json",
+                        "sequence_num": 7,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/variables-naming-question4.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Question"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> value to a variable named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Varx</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 1
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Assign a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> value to a variable named as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">vaRx</span>.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 2
+                                    }
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Try to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">print</span> it, to see if <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Varx</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">vaRx</span> are same or not. If not, then write your reason in the comment in your file.",
+                                    "decoration": {
+                                          "type": "number",
+                                          "value": 3
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "id": "7732",
+                        "parent_exercise_id": "5974",
+                        "course_id": "204",
+                        "name": "Assessment",
+                        "slug": "variables_json__variables/Assessment_json",
+                        "sequence_num": 8,
+                        "review_type": "manual",
+                        "submission_type": null,
+                        "github_link": "https://github.com/navgurukul/newton/tree/master/variables_json/variables/Assessment.json",
+                        "solution": null,
+                        "content": [
+                              {
+                                    "component": "header",
+                                    "variant": 2,
+                                    "value": "Assessment"
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "Please fill this quiz with proper details to understand how much of this course did you understand."
+                              },
+                              {
+                                    "component": "text",
+                                    "value": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc45QeQRI7mYPqHdCAWl6JMFXgKLwDAkmrdTcA8_Yfh2eNT1A/viewform?usp=sf_link\">click Here</a>"
+                              }
+                        ]
+                  }
+            ]
+      }
+}
